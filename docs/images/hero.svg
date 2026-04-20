@@ -1,0 +1,19 @@
+<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root {
+      --color-N600: #0f1e57;
+      --color-brand: #e4002b;
+      --color-blue-light: #e5eaff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --color-N600: #e5eaff;
+        --color-blue-light: #0e41aa;
+      }
+    }
+  </style>
+  <rect x="4" y="9" width="32" height="22" rx="3" fill="var(--color-blue-light, #e5eaff)"/>
+  <path d="M10 16 L14 20 L10 24" stroke="var(--color-brand, #e4002b)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="17" y1="24.5" x2="25" y2="24.5" stroke="var(--color-N600, #0f1e57)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M30 9 L31 13 L35 14 L31 15 L30 19 L29 15 L25 14 L29 13 Z" fill="var(--color-brand, #e4002b)"/>
+</svg>
